@@ -1,0 +1,24 @@
+{
+  "name": "shapefile-to-geojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "npm run build:clean && npm run build",
+    "build": "tsc",
+    "build:watch": "npm run build -- --watch",
+    "build:clean": "rimraf dist",
+    "test": "jest --coverage --transformIgnorePatterns=''"
+  },
+  "author": "rrainn, Inc.",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/geojson": "^7946.0.8",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^16.11.10",
+    "jest": "^27.4.7",
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.2"
+  }
+}
