@@ -1,7 +1,7 @@
 {
   "name": "shapefile-to-geojson",
   "version": "1.0.0",
-  "description": "",
+  "description": "This package allows you to easily convert a shapefile to geojson.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
