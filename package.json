@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "npm run build:clean && npm run build",
     "build": "tsc",
@@ -12,6 +13,25 @@
   },
   "author": "rrainn, Inc.",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrainn/shapefile-to-geojson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rrainn/shapefile-to-geojson/issues"
+  },
+  "keywords": [
+    "shapefile",
+    "geojson",
+    "convert",
+    "converter",
+    "transform",
+    "gis",
+    "geography"
+  ],
   "devDependencies": {
     "@types/geojson": "^7946.0.8",
     "@types/jest": "^27.4.0",
